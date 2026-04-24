@@ -74,10 +74,16 @@ Este projeto é o template para todos os blogs de safie.blog.br.
 Toda configuração específica de nicho está em `config/`. Nenhum texto de "cripto" deve aparecer hardcoded nos scripts ou templates.
 Ver `REPLICAR.md` para o processo completo.
 
-## Estado atual do projeto
-- **Fase 1 concluída:** Estrutura criada em 2026-04-23
-- **Fase 2:** Interface do blog (templates HTML + CSS identidade SAFIE) — PENDENTE
-- **Fase 3:** Sistema de busca de notícias (Apify + RSS) — PENDENTE
-- **Fase 4:** Sistema de geração de conteúdo (Claude API) — PENDENTE
-- **Fase 5:** Deploy (Registro.br + GitHub + Cloudflare Pages) — PENDENTE
-- **Fase 6:** Validação e documentação final — PENDENTE
+## Estado atual do projeto (2026-04-23)
+- **Fase 1 concluída:** Estrutura de pastas, configs, Git
+- **Fase 2 concluída:** Interface HTML/CSS (identidade SAFIE), busca em JS
+- **Fase 3 concluída:** buscar_noticia.py — RSS funcionando, Apify opcional via config
+- **Fase 4 concluída:** gerar_artigo.py + publicar.py + rodar_diario.sh — 1º artigo publicado
+- **Fase 5 parcialmente concluída:**
+  - GitHub: https://github.com/lucasm-mantovani/safie-blog-cripto
+  - Cloudflare Pages: https://safie-blog-cripto.pages.dev (no ar e funcionando)
+  - Cron job (launchd): configurado, roda todo dia às 7h
+  - DNS pendente: safie.blog.br registrado no Registro.br, aguardando pagamento processar
+  - Após pagamento: criar CNAME "cripto" → safie-blog-cripto.pages.dev no Registro.br
+  - Depois: adicionar domínio cripto.safie.blog.br no Cloudflare Pages (Custom domains)
+- **Fase 6:** Validação SEO e documentação final — PENDENTE
