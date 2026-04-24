@@ -1,0 +1,16 @@
+{
+  "rss_feeds": [
+    {"nome": "Portal do Bitcoin", "url": "https://portaldobitcoin.uol.com.br/feed/"},
+    {"nome": "CoinTelegraph Brasil", "url": "https://cointelegraph.com.br/rss"},
+    {"nome": "Livecoins", "url": "https://livecoins.com.br/feed/"},
+    {"nome": "Money Times Cripto", "url": "https://www.moneytimes.com.br/crypto/feed/"}
+  ],
+  "sites_prioritarios_apify": [
+    "portaldobitcoin.uol.com.br",
+    "cointelegraph.com.br",
+    "livecoins.com.br",
+    "valor.globo.com",
+    "moneytimes.com.br",
+    "infomoney.com.br"
+  ]
+}

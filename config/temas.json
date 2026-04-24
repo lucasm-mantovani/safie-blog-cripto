@@ -1,0 +1,67 @@
+{
+  "temas": [
+    {
+      "nome": "Regulação de criptoativos no Brasil",
+      "slug": "regulacao-cripto",
+      "palavras_chave": [
+        "CVM cripto",
+        "Lei 14.478",
+        "regulação cripto Brasil",
+        "marco legal criptoativos",
+        "Banco Central cripto"
+      ]
+    },
+    {
+      "nome": "Tributação de criptoativos",
+      "slug": "tributacao-cripto",
+      "palavras_chave": [
+        "imposto de renda bitcoin",
+        "declaração criptoativos",
+        "tributação cripto PJ",
+        "IN 1888",
+        "imposto cripto Brasil"
+      ]
+    },
+    {
+      "nome": "Estruturação societária de empresas cripto",
+      "slug": "estruturacao-empresa-cripto",
+      "palavras_chave": [
+        "exchange Brasil",
+        "PSAV",
+        "VASP Brasil",
+        "abertura empresa cripto",
+        "corretora cripto"
+      ]
+    },
+    {
+      "nome": "Compliance e PLD cripto",
+      "slug": "compliance-cripto",
+      "palavras_chave": [
+        "PLD criptoativos",
+        "compliance exchange",
+        "COAF cripto",
+        "lavagem de dinheiro cripto"
+      ]
+    },
+    {
+      "nome": "Tokenização e ativos digitais",
+      "slug": "tokenizacao",
+      "palavras_chave": [
+        "tokenização imóveis",
+        "security token Brasil",
+        "tokenização recebíveis",
+        "RWA Brasil"
+      ]
+    },
+    {
+      "nome": "DeFi e stablecoins",
+      "slug": "defi-stablecoin",
+      "palavras_chave": [
+        "DeFi Brasil regulação",
+        "stablecoin Banco Central",
+        "DREX",
+        "real digital"
+      ]
+    }
+  ]
+}

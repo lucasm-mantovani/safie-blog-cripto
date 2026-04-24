@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cripto.safie.blog.br/sitemap.xml

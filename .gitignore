@@ -1,0 +1,31 @@
+# Credenciais e ambiente
+.env
+*.env.local
+
+# Logs (não versionados)
+logs/
+
+# Dados operacionais (podem conter tokens em mensagens de erro)
+dados/consumo_apify.json
+dados/noticia_selecionada.json
+dados/artigo_gerado.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.Python
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

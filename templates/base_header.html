@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{META_TITULO}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <link rel="canonical" href="{{CANONICAL_URL}}">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="{{OG_TYPE}}">
+  <meta property="og:title"       content="{{META_TITULO}}">
+  <meta property="og:description" content="{{META_DESCRIPTION}}">
+  <meta property="og:url"         content="{{CANONICAL_URL}}">
+  <meta property="og:site_name"   content="{{BLOG_NOME}}">
+  <meta property="og:locale"      content="pt_BR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="{{META_TITULO}}">
+  <meta name="twitter:description" content="{{META_DESCRIPTION}}">
+
+  <!-- Schema.org JSON-LD -->
+  {{SCHEMA_JSON}}
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/assets/css/estilo.css">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="{{BLOG_NOME}} — Página inicial">
+      <span class="logo-marca">SAFIE <span>Cripto</span></span>
+      <span class="logo-sub">Direito &amp; Contabilidade</span>
+    </a>
+
+    <nav id="nav-principal" class="nav-principal" aria-label="Navegação principal">
+      <a href="/">Home</a>
+      <a href="/temas/">Temas</a>
+      <a href="/sobre.html">Sobre</a>
+      <a href="/busca.html">Busca</a>
+    </nav>
+
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
