@@ -244,16 +244,26 @@ def montar_artigo_completo(dados_claude: dict, noticia: dict, config_blog: dict)
         if ref_original not in " ".join(refs):
             refs.insert(0, ref_original)
 
-    refs_html = ""
+    refs_html = "<ul>\n"
     for ref in refs:
         if not ref or not ref.strip():
             continue
-        # Converte [texto](url) em <a href>
-        match = re.match(r"\[(.+?)\]\((.+?)\)", ref.strip())
+        ref_text = ref.strip().lstrip("-").strip()
+        # Busca markdown [texto](url) em qualquer posição da string
+        match = re.search(r"\[(.+?)\]\((.+?)\)", ref_text)
         if match:
-            refs_html += f'<a href="{match.group(2)}" target="_blank" rel="noopener">{match.group(1)}</a>\n'
+            link_text = match.group(1)
+            link_url = match.group(2)
+            link_html = f'<a href="{link_url}" target="_blank" rel="noopener">{link_text}</a>'
+            # Texto antes do link (ex: "Fonte original:", "Lei 14.478/2022:")
+            prefix = ref_text[:match.start()].strip().rstrip(":").strip()
+            if prefix:
+                refs_html += f'<li><span class="ref-label">{prefix}:</span> {link_html}</li>\n'
+            else:
+                refs_html += f'<li>{link_html}</li>\n'
         else:
-            refs_html += f"<span>{ref.strip()}</span>\n"
+            refs_html += f'<li>{ref_text}</li>\n'
+    refs_html += "</ul>\n"
 
     # Schema.org JSON-LD
     faq_schema = [
