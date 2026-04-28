@@ -282,31 +282,9 @@ def card_artigo_html(artigo_idx: dict) -> str:
 
 
 def atualizar_home(indice: list, config_blog: dict):
-    html_home = INDEX_HTML.read_text(encoding="utf-8")
-    artigos_por_pagina = config_blog.get("artigos_por_pagina", 10)
-    pagina = indice[:artigos_por_pagina]
-
-    cards_html = "\n".join(card_artigo_html(a) for a in pagina)
-
-    # Substitui o bloco entre os comentários placeholder
-    html_novo = re.sub(
-        r"<!-- ARTIGOS_PLACEHOLDER.*?<!-- /ARTIGOS_PLACEHOLDER -->",
-        f"<!-- ARTIGOS_PLACEHOLDER -->\n{cards_html}\n<!-- /ARTIGOS_PLACEHOLDER -->",
-        html_home,
-        flags=re.DOTALL,
-    )
-
-    # Se não tinha placeholder, substitui o bloco id="artigos-grid" inteiro
-    if html_novo == html_home:
-        html_novo = re.sub(
-            r'(<div class="artigos-grid" id="artigos-grid">).*?(</div>)',
-            f'\\1\n{cards_html}\n\\2',
-            html_home,
-            flags=re.DOTALL,
-        )
-
-    INDEX_HTML.write_text(html_novo, encoding="utf-8")
-    log.info("Home (index.html) atualizada")
+    # Home é JS-driven (v3): lê artigos/indice.json dinamicamente via home.js.
+    # O indice.json já foi atualizado por atualizar_indice() — nada mais a fazer aqui.
+    log.info(f"Home JS-driven: indice.json atualizado com {len(indice)} artigos.")
 
 
 # ── 4. Atualizar página do tema ───────────────────────────────────────────────
