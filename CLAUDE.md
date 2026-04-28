@@ -74,16 +74,20 @@ Este projeto é o template para todos os blogs de safie.blog.br.
 Toda configuração específica de nicho está em `config/`. Nenhum texto de "cripto" deve aparecer hardcoded nos scripts ou templates.
 Ver `REPLICAR.md` para o processo completo.
 
-## Estado atual do projeto (2026-04-23)
+## Estado atual do projeto (2026-04-28)
 - **Fase 1 concluída:** Estrutura de pastas, configs, Git
 - **Fase 2 concluída:** Interface HTML/CSS (identidade SAFIE), busca em JS
 - **Fase 3 concluída:** buscar_noticia.py — RSS funcionando, Apify opcional via config
-- **Fase 4 concluída:** gerar_artigo.py + publicar.py + rodar_diario.sh — 1º artigo publicado
-- **Fase 5 parcialmente concluída:**
+- **Fase 4 concluída:** gerar_artigo.py + otimizar_seo.py + publicar.py + rodar_diario.sh — pipeline em 4 etapas
+- **Fase 5 concluída:**
   - GitHub: https://github.com/lucasm-mantovani/safie-blog-cripto
-  - Cloudflare Pages: https://safie-blog-cripto.pages.dev (no ar e funcionando)
-  - Cron job (launchd): configurado, roda todo dia às 7h
-  - DNS pendente: safie.blog.br registrado no Registro.br, aguardando pagamento processar
-  - Após pagamento: criar CNAME "cripto" → safie-blog-cripto.pages.dev no Registro.br
-  - Depois: adicionar domínio cripto.safie.blog.br no Cloudflare Pages (Custom domains)
-- **Fase 6:** Validação SEO e documentação final — PENDENTE
+  - Cloudflare Pages: https://safie-blog-cripto.pages.dev (no ar)
+  - Domínio: cripto.safie.blog.br (DNS propagado em 2026-04-28)
+  - Cron job (launchd): ativo, roda todo dia às 7h
+- **Fase 6 concluída (2026-04-28):**
+  - DNS propagado e HTTP 200 confirmados
+  - robots.txt + sitemap.xml funcionando
+  - Schema.org BlogPosting + FAQPage em todos os artigos
+  - meta robots, keywords, og:*, twitter:* no template
+  - REPLICAR.md finalizado com checklist da Fase 6
+  - Validação manual pendente: Google Rich Results Test + PageSpeed Insights (opcional, após próximo artigo gerado)

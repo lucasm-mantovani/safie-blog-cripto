@@ -174,6 +174,35 @@ launchctl load ~/Library/LaunchAgents/${LABEL}.plist
 
 ---
 
+## 10. Validação SEO (Fase 6) — após DNS propagar
+
+Após o DNS do novo subdomínio propagar (normalmente em menos de 24h), valide:
+
+**Verificações automáticas (terminal):**
+```bash
+# DNS propagado?
+dig +short CNAME novo.safie.blog.br
+
+# Site respondendo?
+curl -s -o /dev/null -w "%{http_code}" https://novo.safie.blog.br
+
+# Robots.txt e sitemap?
+curl -s https://novo.safie.blog.br/robots.txt
+curl -s https://novo.safie.blog.br/sitemap.xml | grep -c "<url>"
+```
+
+**Verificações manuais (browser):**
+1. **Google Rich Results Test** — acesse https://search.google.com/test/rich-results e cole a URL de um artigo. Deve mostrar BlogPosting + FAQPage sem erros.
+2. **PageSpeed Insights** — acesse https://pagespeed.web.dev e teste o domínio do blog. Meta: SEO ≥ 90.
+
+**O que já vem configurado automaticamente:**
+- Schema.org BlogPosting + FAQPage em cada artigo (gerado por `gerar_artigo.py`)
+- meta robots, description, keywords, og:* e twitter:* no template
+- sitemap.xml atualizado a cada artigo publicado
+- robots.txt apontando para o sitemap
+
+---
+
 ## Checklist de replicação
 
 - [ ] Pasta copiada de `Blog-Cripto`
@@ -189,3 +218,6 @@ launchctl load ~/Library/LaunchAgents/${LABEL}.plist
 - [ ] Domínio personalizado configurado no Cloudflare Pages
 - [ ] Cron job (launchd) configurado para o novo blog
 - [ ] Primeiro artigo gerado e publicado com sucesso
+- [ ] DNS propagado e HTTP 200 confirmados
+- [ ] Google Rich Results Test sem erros (BlogPosting + FAQPage)
+- [ ] PageSpeed Insights SEO ≥ 90
