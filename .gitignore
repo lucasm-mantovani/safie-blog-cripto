@@ -29,3 +29,9 @@ env/
 .idea/
 *.swp
 *.swo
+
+# backups locais (nunca versionar)
+.env.bkp*
+.env.backup*
+*.bkp.*
+.git/config.bkp.*
