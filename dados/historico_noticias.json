@@ -125,6 +125,12 @@
       "titulo_noticia": "Como as criptomoedas podem impactar as eleições de 2026",
       "url_fonte": "https://portaldobitcoin.uol.com.br/como-as-criptomoedas-podem-impactar-as-eleicoes-de-2026/",
       "tema_slug": "defi-stablecoin"
+    },
+    {
+      "data_publicacao": "2026-05-18T03:15:57.495023+00:00",
+      "titulo_noticia": "Kraken migrará tecnologia de Wrapped Bitcoin para Chainlink à medida que a debandada do LayerZero se expande",
+      "url_fonte": "https://portaldobitcoin.uol.com.br/kraken-migrara-tecnologia-de-wrapped-bitcoin-para-chainlink-a-medida-que-a-debandada-do-layerzero-se-expande/",
+      "tema_slug": "compliance-cripto"
     }
   ]
 }
