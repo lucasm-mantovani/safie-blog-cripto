@@ -167,6 +167,12 @@
       "titulo_noticia": "Europa abre consulta pública para revisar regras de criptomoedas do MiCA",
       "url_fonte": "https://portaldobitcoin.uol.com.br/europa-abre-consulta-publica-para-revisar-regras-de-criptomoedas-do-mica/",
       "tema_slug": "compliance-cripto"
+    },
+    {
+      "data_publicacao": "2026-05-21T10:00:18.030592+00:00",
+      "titulo_noticia": "Banco Central atualiza norma sobre cartões cripto, exige reporte de operações e abre brecha para IOF",
+      "url_fonte": "https://cointelegraph.com.br/news/brazilian-central-bank-cripto-cards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tema_slug": "tokenizacao"
     }
   ]
 }
