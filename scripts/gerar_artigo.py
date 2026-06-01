@@ -45,7 +45,14 @@ log = logging.getLogger(__name__)
 # ── Credenciais ───────────────────────────────────────────────────────────────
 load_dotenv(BASE / ".env")
 load_dotenv(Path.home() / ".zshrc", override=False)
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+# ANTHROPIC_API_KEY — lida de ~/.config/safie/anthropic_key (centralizado, modo 600)
+_KEY_PATH = Path.home() / ".config" / "safie" / "anthropic_key"
+try:
+    ANTHROPIC_API_KEY = _KEY_PATH.read_text().strip()
+except FileNotFoundError:
+    sys.exit(f"ERRO: chave Anthropic não encontrada em {_KEY_PATH}")
+if not ANTHROPIC_API_KEY:
+    sys.exit(f"ERRO: chave Anthropic vazia em {_KEY_PATH}")
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -182,21 +189,42 @@ def chamar_claude(prompt: str) -> str:
 # ── Parse da resposta JSON ────────────────────────────────────────────────────
 
 def extrair_json(texto: str) -> dict:
-    # Tenta extrair JSON mesmo que haja texto antes/depois
-    texto = texto.strip()
-
-    # Remove blocos de markdown se houver
-    if texto.startswith("```"):
-        linhas = texto.split("\n")
-        texto = "\n".join(linhas[1:-1])
-
-    # Localiza o primeiro { e o último }
+    """Extrai JSON da resposta do Claude com fallbacks em cascata."""
+    # 1. Localizar bloco entre primeira { e última }
     inicio = texto.find("{")
-    fim    = texto.rfind("}") + 1
-    if inicio == -1 or fim == 0:
-        raise ValueError("JSON não encontrado na resposta do Claude")
+    fim = texto.rfind("}")
+    if inicio == -1 or fim == -1 or fim <= inicio:
+        raise ValueError("Nenhum bloco JSON encontrado na resposta")
+    candidato = texto[inicio : fim + 1]
 
-    return json.loads(texto[inicio:fim])
+    # 2. Parse direto
+    try:
+        return json.loads(candidato)
+    except json.JSONDecodeError:
+        pass
+
+    # 3. Fallback: escapar newlines literais dentro de strings
+    sanitizado = re.sub(r"(?<!\\)\n", r"\\n", candidato)
+    try:
+        return json.loads(sanitizado)
+    except json.JSONDecodeError:
+        pass
+
+    # 4. Fallback: extrair de bloco markdown ```json ... ```
+    match = re.search(r"```json\s*(\{.*?\})\s*```", texto, re.DOTALL)
+    if match:
+        try:
+            return json.loads(match.group(1))
+        except json.JSONDecodeError:
+            pass
+
+    # 5. Esgotou — propagar com referência à forense
+    raise json.JSONDecodeError(
+        "extrair_json esgotou fallbacks (direto, newline, markdown). "
+        "Resposta crua em dados/ultima_resposta_claude.txt",
+        candidato,
+        0,
+    )
 
 
 # ── Montagem do artigo ────────────────────────────────────────────────────────
@@ -345,6 +373,13 @@ def main(noticia_path: Path = NOTICIA_PATH) -> dict:
 
     prompt   = montar_prompt(noticia, config_blog)
     resposta = chamar_claude(prompt)
+
+    # Persistir resposta crua antes do parse — forense em caso de JSONDecodeError
+    RAW_PATH = BASE / "dados" / "ultima_resposta_claude.txt"
+    try:
+        RAW_PATH.write_text(resposta, encoding="utf-8")
+    except Exception as e:
+        print(f"[aviso] falha ao salvar resposta crua: {e}", file=sys.stderr)
 
     log.info("[Claude] Parseando resposta...")
     dados_claude = extrair_json(resposta)
