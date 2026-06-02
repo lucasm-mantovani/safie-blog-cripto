@@ -76,6 +76,8 @@ Atualize o `.env`:
 GITHUB_REPO=usuario/safie-blog-trabalhista
 ```
 
+> A chave Anthropic NÃO vai no `.env`. É lida de `~/.config/safie/anthropic_key` (compartilhada pela rede, decisão #009). Não duplicar a chave em novos blogs.
+
 ---
 
 ## 5. Criar projeto no Cloudflare Pages
