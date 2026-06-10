@@ -377,6 +377,12 @@
       "titulo_noticia": "Congresso dos EUA discute cobrança de impostos para criptomoedas",
       "url_fonte": "https://portaldobitcoin.uol.com.br/congresso-dos-eua-discute-cobranca-de-impostos-para-criptomoedas/",
       "tema_slug": "compliance-cripto"
+    },
+    {
+      "data_publicacao": "2026-06-10T03:18:38.058497+00:00",
+      "titulo_noticia": "Novo presidente da CVM anuncia regulação de tokenizaçao e criptomoedas com suporte de IA",
+      "url_fonte": "https://livecoins.com.br/novo-presidente-da-cvm-anuncia-regulacao-de-tokenizacao-e-criptomoedas-com-suporte-de-ia/",
+      "tema_slug": "tokenizacao"
     }
   ]
 }
