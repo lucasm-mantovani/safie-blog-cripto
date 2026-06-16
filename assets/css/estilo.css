@@ -155,6 +155,10 @@ body {
 
 img, svg { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
+/* fix bug2: sem ring de foco do navegador em clique/navegação (a "borda azul" no logo);
+   mantém acessibilidade — ring só no foco por teclado (:focus-visible). */
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 3px; border-radius: 2px; }
 
 h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; }
 
@@ -235,7 +239,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; }
   background: radial-gradient(ellipse, rgba(21,78,250,0.28) 0%, transparent 70%);
   pointer-events: none;
 }
-.hero > * { position: relative; max-width: var(--container-max); margin-left: auto; margin-right: auto; }
+.hero > * { position: relative; max-width: var(--container-max); margin-left: 0; margin-right: auto; }  /* fix bug1: filhos do hero alinhados à mesma origem esquerda (antes centravam individualmente) */
 
 /* eyebrow em pill de borda fina (NOVO) — "Blog SAFIE • [Nicho]" */
 .eyebrow {
@@ -402,7 +406,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; }
 }
 .destaque-card:hover { box-shadow: var(--shadow-card); transform: translateY(-1px); border-color: var(--cor-nicho); }
 .destaque-imagem-wrap { aspect-ratio: 16/10; overflow: hidden; background: var(--color-bg-navy); }
-.destaque-imagem { width: 100%; height: 100%; object-fit: cover; }
+.destaque-imagem { width: 100%; height: 100%; object-fit: cover; object-position: left center; }  /* mitiga bug3: título embutido fica na borda esquerda da capa; alinhar à esquerda evita cortá-lo. (palavra dropada "Filipinas" é bug do gerador de capa — pipeline) */
 .destaque-corpo { padding: var(--space-7); display: flex; flex-direction: column; justify-content: center; gap: var(--space-3); }
 .destaque-tags { display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; }
 .destaque-badge {
