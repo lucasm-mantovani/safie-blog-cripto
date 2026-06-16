@@ -81,13 +81,13 @@
 
   <!-- Título — linha 1 -->
   <text x="52" y="286" fill="#ffffff"
-        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">Cartões Cripto: BC</text>
+        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">Cartões Cripto:</text>
   <!-- Título — linha 2 -->
-  <text x="52" y="352" fill="#4a9eff"
-        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">exige reporte e abre</text>
+  <text x="52" y="352" fill="#ffffff"
+        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">BC exige reporte e</text>
   <!-- Título — linha 3 (última linha fica na cor de destaque) -->
   <text x="52" y="418" fill="#4a9eff"
-        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700"></text>
+        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">abre brecha para IOF</text>
 
   <!-- Barra de destaque — canto inferior esquerdo -->
   <rect x="52" y="572" width="64" height="4" fill="#4a9eff"/>

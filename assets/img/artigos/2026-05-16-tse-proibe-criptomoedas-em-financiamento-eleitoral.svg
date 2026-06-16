@@ -84,7 +84,7 @@
         font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">TSE proíbe criptomoedas</text>
   <!-- Título — linha 2 -->
   <text x="52" y="352" fill="#4a9eff"
-        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">em financiamento</text>
+        font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">em financiamento eleitoral</text>
   <!-- Título — linha 3 (última linha fica na cor de destaque) -->
   <text x="52" y="418" fill="#4a9eff"
         font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700"></text>
