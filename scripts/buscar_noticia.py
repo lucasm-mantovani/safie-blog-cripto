@@ -6,7 +6,7 @@ Fluxo:
   2. Filtra resultados das últimas 48h
   3. Seleciona a notícia mais relevante (sem repetir histórico dos últimos 15 dias)
   4. Se Apify falhar (limite esgotado ou erro) → fallback para RSS
-  5. Se RSS também falhar → retorna tema evergreen para gerar artigo sem notícia
+  5. Se RSS também não trouxer notícia fresca → encerra com exit 75 (Direção 1: sem evergreen, não publica)
   6. Registra consumo em dados/consumo_apify.json
 
 Uso:
@@ -14,7 +14,7 @@ Uso:
   python3 scripts/buscar_noticia.py --forcar-rss   (pula Apify, usa só RSS)
   python3 scripts/buscar_noticia.py --tema regulacao-cripto  (busca apenas 1 tema)
 
-Saída: imprime JSON com a notícia selecionada (ou instrução evergreen)
+Saída: imprime JSON com a notícia selecionada; exit 75 se não houver notícia fresca
 """
 
 import json
@@ -346,58 +346,17 @@ def selecionar_melhor(candidatos: List[Dict]) -> Optional[Dict]:
     return escolhida
 
 
-# ── Evergreen fallback ────────────────────────────────────────────────────────
-
-TEMAS_EVERGREEN = [
-    {
-        "tipo": "evergreen",
-        "tema_slug": "tributacao-cripto",
-        "tema_nome": "Tributação de criptoativos",
-        "titulo": "Como declarar criptoativos no Imposto de Renda",
-        "resumo": "Guia completo sobre obrigações fiscais para investidores e empresas com criptoativos no Brasil.",
-        "url": "",
-        "fonte": "evergreen",
-        "data": "",
-        "origem": "evergreen",
-    },
-    {
-        "tipo": "evergreen",
-        "tema_slug": "regulacao-cripto",
-        "tema_nome": "Regulação de criptoativos",
-        "titulo": "Marco legal dos criptoativos no Brasil: o que mudou com a Lei 14.478",
-        "resumo": "Análise completa das mudanças trazidas pela Lei 14.478 e o papel do Banco Central e da CVM na regulação.",
-        "url": "",
-        "fonte": "evergreen",
-        "data": "",
-        "origem": "evergreen",
-    },
-    {
-        "tipo": "evergreen",
-        "tema_slug": "compliance-cripto",
-        "tema_nome": "Compliance e PLD",
-        "titulo": "PLD/FTP em exchanges e VASPs: obrigações e melhores práticas",
-        "resumo": "O que exchanges e prestadores de serviços de ativos virtuais precisam fazer para cumprir as normas de prevenção à lavagem de dinheiro.",
-        "url": "",
-        "fonte": "evergreen",
-        "data": "",
-        "origem": "evergreen",
-    },
-]
-
-
-def escolher_evergreen(temas_slugs_usados: List[str]) -> Dict:
-    for tema in TEMAS_EVERGREEN:
-        if tema["tema_slug"] not in temas_slugs_usados:
-            return tema
-    return TEMAS_EVERGREEN[0]
-
-
 # ── Orquestrador principal ────────────────────────────────────────────────────
 
 def main(forcar_rss: bool = False, apenas_tema: str = "") -> Dict:
     log.info("=" * 60)
     log.info("BUSCAR NOTÍCIA — início")
     resumo_consumo()
+
+    # Higiene: limpar saída anterior para evitar consumo ambíguo (Direção 1)
+    arquivo_saida = BASE / "dados" / "noticia_selecionada.json"
+    if arquivo_saida.exists():
+        arquivo_saida.unlink()
 
     config_temas  = ler_json(CONFIG_TEMAS, {"temas": []})
     config_fontes = ler_json(CONFIG_FONTES, {"rss_feeds": [], "sites_prioritarios_apify": []})
@@ -438,18 +397,17 @@ def main(forcar_rss: bool = False, apenas_tema: str = "") -> Dict:
     # ── Etapa 3: Seleção ──
     noticia = selecionar_melhor(todos_candidatos)
 
-    # ── Etapa 4: Evergreen ──
+    # ── Etapa 4: Sem notícia fresca → não publica hoje (Direção 1, sem evergreen) ──
     if not noticia:
-        log.warning("Nenhuma notícia nova encontrada. Usando tema evergreen.")
-        slugs_usados = [t["slug"] for t in temas]
-        noticia = escolher_evergreen(slugs_usados)
+        log.warning("Nenhuma notícia nova encontrada hoje. Encerrando sem publicar (exit 75).")
+        sys.exit(75)
 
     log.info("=" * 60)
     log.info(f"RESULTADO FINAL:")
     log.info(f"  Tema:   {noticia.get('tema_nome')}")
     log.info(f"  Título: {noticia.get('titulo')}")
     log.info(f"  Fonte:  {noticia.get('fonte')} ({noticia.get('origem')})")
-    log.info(f"  URL:    {noticia.get('url') or '(sem URL — evergreen)'}")
+    log.info(f"  URL:    {noticia.get('url') or '(sem URL)'}")
     log.info("=" * 60)
 
     # Salvar resultado em arquivo temporário para o próximo script
