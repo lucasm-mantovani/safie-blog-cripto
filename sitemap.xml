@@ -8,7 +8,7 @@
   </url>
 
   <url>
-    <loc>https://cripto.safie.blog.br/sobre.html</loc>
+    <loc>https://cripto.safie.blog.br/sobre</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -20,644 +20,644 @@
   </url>
 
   <url>
-    <loc>https://cripto.safie.blog.br/temas/regulacao-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/temas/regulacao-cripto</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://cripto.safie.blog.br/temas/tributacao-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/temas/tributacao-cripto</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://cripto.safie.blog.br/temas/estruturacao-empresa-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/temas/estruturacao-empresa-cripto</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://cripto.safie.blog.br/temas/compliance-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/temas/compliance-cripto</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://cripto.safie.blog.br/temas/tokenizacao.html</loc>
+    <loc>https://cripto.safie.blog.br/temas/tokenizacao</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://cripto.safie.blog.br/temas/defi-stablecoin.html</loc>
+    <loc>https://cripto.safie.blog.br/temas/defi-stablecoin</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Artigos adicionados automaticamente pelo publicar.py -->
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-07-06-rublo-digital-e-cbdcs-o-que-muda-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-07-06-rublo-digital-e-cbdcs-o-que-muda-no-brasil</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-07-06-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-07-06-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-07-03-estruturacao-societaria-de-empresas-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-07-03-estruturacao-societaria-de-empresas-cripto</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-07-03-bc-endurece-regras-para-empresas-de-criptoativos.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-07-03-bc-endurece-regras-para-empresas-de-criptoativos</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-07-01-compliance-e-pld-no-mercado-cripto-brasileiro.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-07-01-compliance-e-pld-no-mercado-cripto-brasileiro</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-07-01-stablecoins-e-tributacao-o-que-os-dados-da-receita-revelam.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-07-01-stablecoins-e-tributacao-o-que-os-dados-da-receita-revelam</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-29-stablecoins-e-risco-sistemico-o-alerta-do-bis.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-29-stablecoins-e-risco-sistemico-o-alerta-do-bis</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-29-defi-e-stablecoins-tokenizacao-rumo-a-us-678-tri.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-29-defi-e-stablecoins-tokenizacao-rumo-a-us-678-tri</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-26-tokenizacao-de-ativos-regulacao-e-contabilidade.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-26-tokenizacao-de-ativos-regulacao-e-contabilidade</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-26-bitcoin-a-us-58-mil-o-que-fazer-com-o-ir.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-26-bitcoin-a-us-58-mil-o-que-fazer-com-o-ir</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-24-cripto-e-eleicoes-por-que-a-doacao-e-proibida.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-24-cripto-e-eleicoes-por-que-a-doacao-e-proibida</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-24-estruturacao-societaria-de-empresas-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-24-estruturacao-societaria-de-empresas-cripto</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-22-tributacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-22-tributacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-22-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-22-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-19-tributacao-de-stablecoins-o-que-muda-com-o-pl-43082024.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-19-tributacao-de-stablecoins-o-que-muda-com-o-pl-43082024</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-17-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-17-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-17-tributacao-de-criptoativos-no-brasil-guia-completo.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-17-tributacao-de-criptoativos-no-brasil-guia-completo</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-16-tokenizacao-de-ipos-o-caso-spacex-na-hyperliquid.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-16-tokenizacao-de-ipos-o-caso-spacex-na-hyperliquid</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-16-pld-cripto-banimento-de-privacy-coins-nas-filipinas.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-16-pld-cripto-banimento-de-privacy-coins-nas-filipinas</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-15-estruturacao-societaria-de-empresas-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-15-estruturacao-societaria-de-empresas-cripto</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-15-defi-e-stablecoins-o-que-muda-para-o-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-15-defi-e-stablecoins-o-que-muda-para-o-brasil</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-14-tributacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-14-tributacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-14-tokenizacao-no-brasil-regulacao-e-impacto-juridico.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-14-tokenizacao-no-brasil-regulacao-e-impacto-juridico</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-13-tokenizacao-de-ativos-riscos-juridicos-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-13-tokenizacao-de-ativos-riscos-juridicos-no-brasil</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-13-bloqueio-de-cripto-e-pld-o-que-muda-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-13-bloqueio-de-cripto-e-pld-o-que-muda-no-brasil</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-12-estruturacao-societaria-de-empresas-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-12-estruturacao-societaria-de-empresas-cripto</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-11-defi-stablecoins-e-rwa-o-que-muda-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-11-defi-stablecoins-e-rwa-o-que-muda-no-brasil</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-11-tributacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-11-tributacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-10-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-10-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-10-cvm-regulara-tokenizacao-e-criptomoedas-com-ia.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-10-cvm-regulara-tokenizacao-e-criptomoedas-com-ia</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-09-compliance-e-pld-cripto-o-que-muda-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-09-compliance-e-pld-cripto-o-que-muda-em-2026</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-09-estruturacao-societaria-de-empresas-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-09-estruturacao-societaria-de-empresas-cripto</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-08-defi-e-stablecoins-riscos-juridicos-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-08-defi-e-stablecoins-riscos-juridicos-no-brasil</loc>
     <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-08-tributacao-de-criptoativos-no-brasil-guia-completo.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-08-tributacao-de-criptoativos-no-brasil-guia-completo</loc>
     <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-07-tributacao-de-criptoativos-no-brasil-guia-completo.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-07-tributacao-de-criptoativos-no-brasil-guia-completo</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-06-zcash-pld-e-compliance-o-que-a-falha-revela</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-06-tokenizacao-no-varejo-parceria-inedita-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-06-tokenizacao-no-varejo-parceria-inedita-no-brasil</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-05-estruturacao-societaria-de-empresas-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-05-estruturacao-societaria-de-empresas-cripto</loc>
     <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-05-defi-stablecoins-e-mineracao-o-que-o-brasil-precisa-saber.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-05-defi-stablecoins-e-mineracao-o-que-o-brasil-precisa-saber</loc>
     <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-04-bloqueio-de-cripto-por-embriaguez-o-que-muda.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-04-bloqueio-de-cripto-por-embriaguez-o-que-muda</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-04-manipulacao-de-mercado-cripto-riscos-e-regulacao.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-04-manipulacao-de-mercado-cripto-riscos-e-regulacao</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-03-tokenizacao-e-privacidade-riscos-juridicos-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-03-tokenizacao-e-privacidade-riscos-juridicos-no-brasil</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-02-compliance-e-pld-cripto-o-que-muda-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-02-compliance-e-pld-cripto-o-que-muda-no-brasil</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-02-tributacao-de-criptoativos-no-brasil-guia-completo.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-02-tributacao-de-criptoativos-no-brasil-guia-completo</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-06-01-tributacao-de-criptoativos-no-brasil-guia-completo.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-06-01-tributacao-de-criptoativos-no-brasil-guia-completo</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-23-estruturacao-societaria-de-empresas-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-23-estruturacao-societaria-de-empresas-cripto</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-23-tributacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-23-tributacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-22-bitcoin-pizza-day-e-a-regulacao-cripto-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-22-bitcoin-pizza-day-e-a-regulacao-cripto-no-brasil</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-21-cartoes-cripto-bc-exige-reporte-e-abre-brecha-para-iof.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-21-cartoes-cripto-bc-exige-reporte-e-abre-brecha-para-iof</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-21-compliance-e-pld-cripto-o-que-o-mica-ensina-ao-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-21-compliance-e-pld-cripto-o-que-o-mica-ensina-ao-brasil</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-20-defi-e-stablecoins-no-brasil-o-que-muda-com-a-b3</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-20-estrutura-societaria-para-empresas-de-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-20-estrutura-societaria-para-empresas-de-cripto</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-19-tributacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-19-tributacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-19-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-19-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-18-primeiro-token-rwa-integrado-ao-sfn-o-que-muda.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-18-primeiro-token-rwa-integrado-ao-sfn-o-que-muda</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-18-compliance-e-pld-cripto-o-que-exige-a-lei</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-17-tributacao-de-criptoativos-no-brasil-guia-completo.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-17-tributacao-de-criptoativos-no-brasil-guia-completo</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-17-defi-e-stablecoins-riscos-e-oportunidades-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-17-defi-e-stablecoins-riscos-e-oportunidades-no-brasil</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-16-estruturacao-societaria-de-empresas-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-16-estruturacao-societaria-de-empresas-cripto</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-16-tse-proibe-criptomoedas-em-financiamento-eleitoral.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-16-tse-proibe-criptomoedas-em-financiamento-eleitoral</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-15-tokenizacao-e-tributacao-de-criptoativos-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-15-tokenizacao-e-tributacao-de-criptoativos-no-brasil</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-15-bybit-migra-usuarios-br-riscos-juridicos-e-contabeis.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-15-bybit-migra-usuarios-br-riscos-juridicos-e-contabeis</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-14-compliance-e-pld-no-mercado-cripto-brasileiro.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-14-compliance-e-pld-no-mercado-cripto-brasileiro</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-14-tributacao-de-criptoativos-no-brasil-guia-completo.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-14-tributacao-de-criptoativos-no-brasil-guia-completo</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-13-estruturacao-societaria-de-empresas-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-13-estruturacao-societaria-de-empresas-cripto</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-13-bc-multa-topazio-r-16-mi-por-irregularidades-em-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-13-bc-multa-topazio-r-16-mi-por-irregularidades-em-cripto</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-12-tributacao-de-criptoativos-b3-stablecoins-e-tokenizacao.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-12-tributacao-de-criptoativos-b3-stablecoins-e-tokenizacao</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-12-bloqueio-de-conta-cripto-e-seus-direitos-legais.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-12-bloqueio-de-conta-cripto-e-seus-direitos-legais</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-11-defi-e-stablecoins-riscos-e-regras-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-11-defi-e-stablecoins-riscos-e-regras-no-brasil</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-11-stablecoins-pld-e-compliance-cripto-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-11-stablecoins-pld-e-compliance-cripto-no-brasil</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-10-estruturacao-societaria-de-empresas-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-10-estruturacao-societaria-de-empresas-cripto</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-10-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-10-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-09-tributacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-09-tributacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-09-tributacao-de-criptoativos-no-brasil-guia-completo.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-09-tributacao-de-criptoativos-no-brasil-guia-completo</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-08-stablecoins-e-tributacao-o-que-o-bc-esta-preparando.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-08-stablecoins-e-tributacao-o-que-o-bc-esta-preparando</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-07-compliance-e-pld-cripto-o-que-muda-para-o-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-07-compliance-e-pld-cripto-o-que-muda-para-o-brasil</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-07-drex-defi-e-stablecoins-o-que-muda-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-07-drex-defi-e-stablecoins-o-que-muda-no-brasil</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-06-stablecoins-e-brasileiros-no-exterior-obrigacoes-fiscais.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-06-stablecoins-e-brasileiros-no-exterior-obrigacoes-fiscais</loc>
     <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-06-roubo-de-cripto-e-responsabilidade-da-exchange.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-06-roubo-de-cripto-e-responsabilidade-da-exchange</loc>
     <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-05-bitcoin-a-us-80-mil-como-declarar-e-pagar-ir.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-05-bitcoin-a-us-80-mil-como-declarar-e-pagar-ir</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-05-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-05-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-04-tributacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-04-tributacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-04-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-04-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-03-pl-49322023-regulacao-cripto-avanca-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-03-pl-49322023-regulacao-cripto-avanca-no-brasil</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-03-tokenizacao-de-ativos-anbima-inicia-fase-de-testes.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-03-tokenizacao-de-ativos-anbima-inicia-fase-de-testes</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-02-bc-proibe-criptoativos-em-remessas-efx-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-02-bc-proibe-criptoativos-em-remessas-efx-no-brasil</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-02-governo-investe-r-8-mi-para-rastrear-criptoativos.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-02-governo-investe-r-8-mi-para-rastrear-criptoativos</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-05-01-criptoativos-e-eleicoes-regulacao-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-05-01-criptoativos-e-eleicoes-regulacao-no-brasil</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-30-banco-central-quer-proibir-stablecoins-nao-reguladas.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-30-banco-central-quer-proibir-stablecoins-nao-reguladas</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-30-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-30-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-29-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-29-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-28-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-28-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-28-b3-lanca-contratos-de-eventos-para-bitcoin-e-dolar.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-28-b3-lanca-contratos-de-eventos-para-bitcoin-e-dolar</loc>
     <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-27-jornada-de-6h-em-corretoras-de-cripto-o-que-muda.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-27-jornada-de-6h-em-corretoras-de-cripto-o-que-muda</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-27-tributacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-27-tributacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-26-resolucao-cmn-5298-e-mercados-preditivos-cripto.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-26-resolucao-cmn-5298-e-mercados-preditivos-cripto</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-26-mercados-de-previsao-cripto-regulacao-e-tributos.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-26-mercados-de-previsao-cripto-regulacao-e-tributos</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-25-bcb-proibe-polymarket-e-kalshi-no-brasil.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-25-bcb-proibe-polymarket-e-kalshi-no-brasil</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-25-mineracao-de-bitcoin-no-brasil-riscos-juridicos.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-25-mineracao-de-bitcoin-no-brasil-riscos-juridicos</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-24-regulacao-de-criptoativos-no-brasil-em-2026.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-24-regulacao-de-criptoativos-no-brasil-em-2026</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cripto.safie.blog.br/artigos/2026-04-23-tokenizacao-quando-corretoras-viram-bancos.html</loc>
+    <loc>https://cripto.safie.blog.br/artigos/2026-04-23-tokenizacao-quando-corretoras-viram-bancos</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
