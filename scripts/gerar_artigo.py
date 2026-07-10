@@ -223,6 +223,10 @@ Regras:
 
 {REGRAS_GEO}
 
+- REGRAS CRÍTICAS PARA JSON VÁLIDO:
+  - Use aspas simples (') para atributos HTML internos, ex: <a href='...'>, <h2 class='...'>
+  - Para aspa dupla literal dentro de uma string, escape com backslash: \\"texto\\"
+  - NÃO use quebras de linha literais dentro de strings JSON; use \\n quando necessário
 - Retorne APENAS o JSON válido, sem texto antes ou depois"""
 
 
@@ -246,6 +250,18 @@ def chamar_claude(prompt: str) -> str:
     resposta = message.content[0].text
     log.info(f"[Claude] Tokens usados — input: {message.usage.input_tokens}, output: {message.usage.output_tokens}")
     return resposta
+
+
+# ── Salvar resposta bruta para forense ───────────────────────────────────────
+
+def salvar_resposta_bruta(texto: str, dir_dados: Path) -> None:
+    """Salva resposta bruta do Claude em dados/ultima_resposta_claude.txt
+    para forense em caso de falha de parsing. Sobrescreve a cada execução."""
+    try:
+        path = dir_dados / "ultima_resposta_claude.txt"
+        path.write_text(texto, encoding="utf-8")
+    except Exception as e:
+        log.warning(f"[aviso] falha ao salvar resposta bruta: {e}")
 
 
 # ── Parse da resposta JSON ────────────────────────────────────────────────────
@@ -287,6 +303,33 @@ def extrair_json(texto: str) -> dict:
         candidato,
         0,
     )
+
+
+# ── Geração com retry ─────────────────────────────────────────────────────────
+
+def gerar_artigo_com_retry(prompt_original: str, max_tentativas: int = 2) -> dict:
+    """Chama o LLM com retry. Se primeira resposta falhar parse, regenera 1x
+    com prompt reforçado. Salva resposta bruta sempre."""
+    instrucao_reforco = (
+        "\n\nIMPORTANTE: a resposta anterior foi rejeitada por JSON inválido. "
+        "Regerar atentando para: (1) usar aspas simples dentro de HTML interno, "
+        "ex: <a href='...'>; (2) escapar aspas duplas literais com backslash, "
+        "ex: \\\"texto\\\"; (3) NÃO usar quebras de linha literais dentro das "
+        "strings JSON, usar \\\\n se necessário."
+    )
+    prompt_atual = prompt_original
+    ultima_excecao = None
+    for tentativa in range(max_tentativas):
+        resposta = chamar_claude(prompt_atual)
+        salvar_resposta_bruta(resposta, BASE / "dados")
+        try:
+            return extrair_json(resposta)
+        except ValueError as e:
+            ultima_excecao = e
+            log.warning(f"Tentativa {tentativa+1}/{max_tentativas} falhou: {e}")
+            if tentativa < max_tentativas - 1:
+                prompt_atual = prompt_original + instrucao_reforco
+    raise ValueError(f"Falha em {max_tentativas} tentativas. Última: {ultima_excecao}")
 
 
 # ── Helpers GEO (Camada 1 — 2026-07-08) ──────────────────────────────────────
@@ -540,18 +583,8 @@ def main(noticia_path: Path = NOTICIA_PATH, dry_run: bool = False,
     log.info(f"Notícia: {noticia.get('titulo', '(sem título)')}")
     log.info(f"Tema: {noticia.get('tema_nome', '')}")
 
-    prompt   = montar_prompt(noticia, config_blog)
-    resposta = chamar_claude(prompt)
-
-    # Persistir resposta crua antes do parse — forense em caso de JSONDecodeError
-    RAW_PATH = BASE / "dados" / "ultima_resposta_claude.txt"
-    try:
-        RAW_PATH.write_text(resposta, encoding="utf-8")
-    except Exception as e:
-        print(f"[aviso] falha ao salvar resposta crua: {e}", file=sys.stderr)
-
-    log.info("[Claude] Parseando resposta...")
-    dados_claude = extrair_json(resposta)
+    prompt       = montar_prompt(noticia, config_blog)
+    dados_claude = gerar_artigo_com_retry(prompt)
 
     artigo = montar_artigo_completo(dados_claude, noticia, config_blog)
 
