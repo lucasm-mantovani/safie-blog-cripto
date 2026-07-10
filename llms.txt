@@ -6,6 +6,7 @@
 
 ## Artigos
 
+- [Multas de criptomoedas: R$ 8,3 mi arrecadados pela Receita](https://cripto.safie.blog.br/artigos/2026-07-10-multas-de-criptomoedas-r-83-mi-arrecadados-pela-receita): A Receita Federal do Brasil arrecadou R$ 8,3 milhões em multas aplicadas a contribuintes que cometeram falhas nas declarações de operações com criptomoedas, conforme dados divulgados pelo Portal do Bi
 - [Polymarket bane brasileiros: o que isso muda?](https://cripto.safie.blog.br/artigos/2026-07-08-polymarket-bane-brasileiros-o-que-isso-muda): O Polymarket, maior plataforma de mercados de previsão baseada em criptoativos, passou a bloquear usuários brasileiros após determinação do Banco Central do Brasil
 - [Estruturação societária de empresas cripto](https://cripto.safie.blog.br/artigos/2026-07-08-estruturacao-societaria-de-empresas-cripto): A expansão de exchanges internacionais como a MEXC no mercado brasileiro evidencia a necessidade de estruturas societárias sólidas para operar com criptoativos no país
 - [Rublo Digital e CBDCs: O Que Muda no Brasil?](https://cripto.safie.blog.br/artigos/2026-07-06-rublo-digital-e-cbdcs-o-que-muda-no-brasil): A presidente do Banco Central da Rússia, Elvira Nabiullina, anunciou que o país está pronto para iniciar o uso do rublo digital até setembro de 2026, consolidando a tendência global de moedas digitais
