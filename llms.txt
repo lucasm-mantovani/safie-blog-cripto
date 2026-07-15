@@ -6,6 +6,7 @@
 
 ## Artigos
 
+- [Estruturação societária de empresas cripto](https://cripto.safie.blog.br/artigos/2026-07-15-estruturacao-societaria-de-empresas-cripto): A estruturação societária de empresas cripto no Brasil exige escolha adequada do tipo jurídico, enquadramento como prestadora de serviços de ativos virtuais (PSAV) e autorização do Banco Central, conf
 - [Regulação de Criptoativos no Brasil em 2026](https://cripto.safie.blog.br/artigos/2026-07-15-regulacao-de-criptoativos-no-brasil-em-2026): O Brasil regula criptoativos por meio da Lei 14.478/2022, que atribui ao Banco Central a competência para autorizar e supervisionar prestadoras de serviços de ativos virtuais (PSAVs)
 - [Tributação de Criptoativos no Brasil: o que saber](https://cripto.safie.blog.br/artigos/2026-07-13-tributacao-de-criptoativos-no-brasil-o-que-saber): Ganhos com criptoativos no Brasil são tributados pelo Imposto de Renda com alíquotas de 15% a 22,5% sobre o lucro apurado na alienação, conforme a Instrução Normativa RFB 1.888/2019 e as regras gerais
 - [Tokenização de Ativos: Regulação e Impacto no Brasil](https://cripto.safie.blog.br/artigos/2026-07-13-tokenizacao-de-ativos-regulacao-e-impacto-no-brasil): A tokenização de ativos reais é juridicamente possível no Brasil e está sujeita a regras da CVM, do Banco Central e da Lei 14.478/2022, a depender do tipo de token emitido
